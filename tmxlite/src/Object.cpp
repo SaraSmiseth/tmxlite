@@ -29,7 +29,7 @@ source distribution.
 #include <tmxlite/FreeFuncs.hpp>
 #include <tmxlite/Map.hpp>
 #include <tmxlite/Tileset.hpp>
-#include "detail/pugixml.hpp"
+#include "pugixml.hpp"
 #include <tmxlite/detail/Log.hpp>
 
 #include <sstream>

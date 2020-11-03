@@ -5,8 +5,7 @@ tmxlite_includes = include_directories('tmxlite/include')
 miniz_project = subproject('miniz')
 miniz_dependency = miniz_project.get_variable('miniz_dependency')
 
-pugixml_project = subproject('pugixml')
-pugixml_dependency = pugixml_project.get_variable('pugixml_dependency')
+pugixml_dependency = dependency('pugixml', fallback : ['pugixml', 'pugixml_dependency'])
 
 tmxlite_sources = [
 'tmxlite/src/FreeFuncs.cpp',

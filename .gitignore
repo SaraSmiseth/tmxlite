@@ -8,4 +8,7 @@ Debug
 Release
 build/
 
+subprojects/packagecache/
+subprojects/zstd-*/
+
 *.swp
